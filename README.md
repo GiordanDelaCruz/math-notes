@@ -7,6 +7,7 @@ various topics.
 
 However,due to the vast amounts of concepts in Mathematics, these notes will only focus on a selected few.
 
-Please feel free to check it the website with the link below. For the best experience, consider viewing the website on a desktop/laptop.
+Please feel free to check it the website with the link below. 
+For the best experience, consider viewing the website on a desktop/laptop.
 
 Website URL:
