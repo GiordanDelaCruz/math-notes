@@ -9,4 +9,4 @@ However, due to the vast amounts of concepts in Mathematics, these notes will on
 Please feel free to check it the website with the link below. 
 For the best experience, consider viewing the website on a desktop/laptop.
 
-Website URL:
+Website URL: https://giordandelacruz.github.io/math-notes/
