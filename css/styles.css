@@ -13,8 +13,8 @@ hr {
 }
 
 p {
-  font-family: 'Sorts Mill Goudy', serif;
-  font-size: 1em;
+  font-family: 'Halant', serif;
+  font-size: 1.1rem;
   color: #3c4245;
 }
 
@@ -67,9 +67,40 @@ p {
   vertical-align: middle;
 }
 
+.definition {
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
 .custom-left-section,
 .custom-right-section {
   padding: 0 1rem 2rem;
+}
+
+/* Images */
+.asl-hands {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.logo{
+  display: inline-block;
+  position: absolute;
+  right:0px;
+
+}
+
+.bunny {
+  width: 190px;
+}
+
+.math-operators {
+  padding-top: 2rem;
+  width: 280px;
 }
 
 /* Intro section */
@@ -130,17 +161,6 @@ p {
 /* Personal projects Section */
 #personal-projects {
   padding: 3% 12%;
-}
-
-.asl-hands {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-}
-
-.math-operators {
-  padding-top: 2rem;
-  width: 280px;
 }
 
 /* Carousel */
