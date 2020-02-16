@@ -1,0 +1,267 @@
+/*************************************************************************************************/
+/*                                       Tag Selectors                                           */
+/*************************************************************************************************/
+body{
+  text-align: center;
+  margin: 0;
+}
+
+hr {
+  border-color: #625757;
+  border-style: solid none none;
+  border-width: 1px;
+}
+
+p {
+  font-family: 'Halant', serif;
+  font-size: 1.1rem;
+  color: #3c4245;
+}
+
+/*************************************************************************************************/
+/*                                      Class Selectors                                          */
+/*************************************************************************************************/
+
+/* General Stuff */
+.colored-section {
+  background-color: #5588a3;
+}
+
+.container-fluid {
+  padding: 3% 15% 5.5%;
+}
+
+.container {
+  padding: 3% 5%;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Headings */
+.section-header {
+  color: #3e3838;
+  font-family: "Courier New", "Times New Roman";
+  font-size: 3.2rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px #ae7c7c;
+}
+
+.sub-header{
+  color: #6c5b7b;
+  font-family: "Courier New", "Times New Roman";
+  font-size: 2.1rem;
+  font-weight: bold;
+  padding: 1.2rem 0;
+  text-shadow: 1px 2px #35477d;
+}
+
+/* Paragraphs */
+.information {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 28rem;
+  vertical-align: middle;
+}
+
+.definition {
+
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.custom-left-section,
+.custom-right-section {
+  padding: 0 1rem 2rem;
+}
+
+/* Images */
+.asl-hands {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.logo{
+  display: inline-block;
+  position: absolute;
+  right:0px;
+
+}
+
+.bunny {
+  width: 190px;
+}
+
+.math-operators {
+  padding-top: 2rem;
+  width: 280px;
+}
+
+/* Intro section */
+#intro {
+
+}
+
+.bio-info {
+  color: #ececec ;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.7rem;
+  margin: 0 auto 2rem;
+  text-shadow: 1px 2px #35477d;
+  width: 78%;
+}
+
+.intro-container{
+  padding: 4% 5%;
+}
+
+.main-header {
+  color: #ececec;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+  text-shadow: 2px 2px #00334e
+}
+
+/* Navigation Bar Section */
+.custom-navbr-bg{
+  background-color: #145374;
+}
+
+.custom-navbr-text {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #f1f9f9;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #f1f9f9;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #9fd3c7;
+}
+
+
+
+.navbar {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  padding: 0 18px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+/* context Section */
+#context {
+  background-color: #d6e4f0;
+  text-align: left;
+  padding: 5% 12%;
+}
+
+/* Personal projects Section */
+#personal-projects {
+  padding: 3% 12%;
+}
+
+/* Carousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.carousel-indicators {
+  bottom:-50px;
+}
+
+.carousel-inner {
+  margin-bottom:50px;
+}
+
+.carousel-item {
+  height: 27rem;
+}
+
+.carousel-information {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 28rem;
+  vertical-align: middle;
+}
+
+.books {
+  height: 173px;
+  margin: 0 auto;
+  width: 172px;
+  vertical-align: middle;
+}
+
+/* Footer Section*/
+#footer{
+  background-color: #5588a3;
+  padding: 2% 0 1.6%;
+}
+
+#footer .sub-header {
+  color: #ffffff;
+}
+
+#footer p {
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 0.8rem;
+}
+
+.footer-info {
+  margin: auto;
+  padding: 0 0 20px;
+  width: 40%;
+}
+
+.social-icon {
+  padding: 0 0.7rem 0.8rem;
+  color: white;
+}
+
+
+/*************************************************************************************************/
+/*                                  Pseudo Class Selectors                                       */
+/*************************************************************************************************/
+
+::-webkit-scrollbar {
+    background-color: #145374;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5588a3;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
