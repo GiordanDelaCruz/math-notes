@@ -39,8 +39,16 @@
           <li class="nav-item">
             <a class="nav-link custom-navbr-text" href="../index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link custom-navbr-text" href="../chapters.html">Chapters</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="chapters.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Chapters
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="chapters.html#arithmetic-anchor">Arithmetic</a>
+              <a class="dropdown-item" href="chapters.html#algebra-anchor">Algebra</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link custom-navbr-text" href="">Default</a>
@@ -78,11 +86,17 @@
                 <div class="jumbotron shadow-sm p-3 mb-5 bg-white rounded">
                   <p><strong><em>E.g</em></strong>
                     <br>
-                    a) Given the equation, \(ax^2 + bx + c = 0\), there are <strong>4 operands</strong>, and <strong>3 operators</strong>.
-                    <br>
-                    b) Given the equation, \(x + 7 = 4\), there are <strong>3 operands</strong>, and <strong>2 operators</strong>.
-                    <br>
-                    c) Given the equation, \(y - 2 + 3 - 8 = 0\), there are <strong>5 operands</strong>, and <strong>4 operators</strong>.
+                    a) Given the equation, \(ax^2 + bx + c = 0\), there are <strong>4 operands</strong>, and <strong>3 operators</strong>.<br>
+                    <strong>Operands: 'a', 'b', 'c', '0'</strong><br>
+                    <strong>Operators: '+', '+', '='</strong>
+                    <br><br>
+                    b) Given the equation, \(x + 7 = 4\), there are <strong>3 operands</strong>, and <strong>2 operators</strong>.<br>
+                    <strong>Operands: 'x', '7', '4'</strong><br>
+                    <strong>Operators: '+', '='</strong>
+                    <br><br>
+                    c) Given the equation, \(y - 2 + 3 - 8 = 0\), there are <strong>5 operands</strong>, and <strong>4 operators</strong>.<br>
+                    <strong>Operands: 'y', '2', '3', '8', '0'</strong><br>
+                    <strong>Operators: '-', '+', '-', '='</strong>
                   </p>
                 </div>
             </div>

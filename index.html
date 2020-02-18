@@ -5,7 +5,7 @@
     <meta name="description" content="A online resource for various elementary & high school topics in Math.">
     <meta name="keywords" content="Math, Notes, Giordan, Online">
     <meta name="author" content="Giordan Andrew">
-    <link rel="icon" href="images/giordan-andrew-logo.png">
+    <link rel="icon" href="images/giordan-andrew-logo-blue.png">
     <title>Giordan's Math Notes</title>
 
     <!-- Style sheets -->
@@ -26,7 +26,7 @@
   <body>
 
     <!-- Nav Bar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light custom-navbr-bg">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light custom-navbr-bg navbar-custom">
       <a class="navbar-brand custom-navbr-text" href=""><i class="far fa-user"></i> Giordan's Math Notes</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,18 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link custom-navbr-text" href="#">Home</a>
+            <a class="nav-link custom-navbr-text" href="index.html">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link custom-navbr-text" href="chapters.html">Chapters</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="chapters.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Chapters
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="chapters.html#arithmetic-anchor">Arithmetic</a>
+              <a class="dropdown-item" href="chapters.html#algebra-anchor">Algebra</a>
+            <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
           <li class="nav-item">
             <a class="nav-link custom-navbr-text" href="">Default</a>
@@ -84,7 +92,7 @@
             </div>
             <div class="col-lg-6 center">
 
-                <div class="alert alert-secondary alert-dismissible fade show px-3 mt-5" role="alert">
+                <div class="alert alert-warning alert-dismissible fade show px-3 mt-5" role="alert">
                   <h4 class="alert-heading mb-3">Secret to Success!</h4>
                   <p class="text-sm-left">
                     <strong>Q:</strong> Have you ever wondered what makes a person <strong>smart</strong>?
@@ -109,21 +117,13 @@
                     In life, it is <strong>OK</strong> to <strong>fail</strong> and not get <strong>everything right</strong>, nobody is
                     perfect. The important thing is you <strong>learn</strong> from every <strong>failure</strong>. You use every
                     <strong>expierence</strong> you encounter for <strong>growth</strong>. When you meet with failure, don't think with a
-                    <strong>"I can't do this"</strong> mindset. Think with a <strong>"How can I do this" </strong>mindset. Think of ways
-                    that will enable to resolve the problem, and meet sucess. Perspective play a huge role in determining success.
+                    <strong>"I can't do this"</strong> mindset. Think with a <strong>"How can I do this" </strong>mindset.
                   </p>
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
             </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6">
-              <img class="math-operators" src="images/math-operators.png" alt="A picutre of math operators.">
-            </div>
-
           </div>
 
         </div>
