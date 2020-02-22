@@ -4,12 +4,13 @@
 body{
   text-align: center;
   margin: 0;
+  overflow-x: hidden;
 }
 
 hr {
   border-color: #625757;
   border-style: solid none none;
-  border-width: 1px;
+  border-max-width: 1px;
 }
 
 p {
@@ -19,24 +20,41 @@ p {
 }
 
 /*************************************************************************************************/
-/*                                      Class Selectors                                          */
+/*                                 Class & ID Selectors                                          */
 /*************************************************************************************************/
 
 /* General Stuff */
+.center {
+  text-align: center;
+}
+
 .colored-section {
   background-color: #5588a3;
 }
 
 .container-fluid {
-  padding: 3% 15% 5.5%;
+  padding: 0%;
 }
 
 .container {
-  padding: 3% 5%;
+  padding: 0% 0%;
 }
 
-.center {
-  text-align: center;
+.definition {
+
+}
+
+/* Paragraphs */
+.information {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 28rem;
+  vertical-align: middle;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /* Headings */
@@ -58,23 +76,6 @@ p {
   text-shadow: 1px 2px #35477d;
 }
 
-/* Paragraphs */
-.information {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
-  width: 28rem;
-  vertical-align: middle;
-}
-
-.definition {
-
-}
-
-.underline {
-  text-decoration: underline;
-}
-
 .custom-left-section,
 .custom-right-section {
   padding: 0 1rem 2rem;
@@ -87,51 +88,20 @@ p {
     vertical-align: middle;
 }
 
-.logo{
-  display: inline-block;
-  position: absolute;
-  right:0px;
-
+.ga-logo{
+  width: 2.3rem;
 }
 
 .bunny {
-  width: 190px;
+  max-width: 190px;
 }
 
 .math-operators {
   padding-top: 2rem;
-  width: 280px;
+  max-width: 280px;
 }
 
-/* Intro section */
-#intro {
-
-}
-
-.bio-info {
-  color: #ececec;
-  font-family: "Cutive Mono", monospace;
-  font-size: 1.7rem;
-  margin: 0 auto 2rem;
-  text-shadow: 1px 2px #35477d;
-  width: 78%;
-}
-
-.intro-container{
-  padding: 4% 5%;
-}
-
-.main-header {
-  /* color: #ececec; */
-  color: #f1935c ;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 5.2rem;
-  font-weight: bold;
-  margin: 2rem 0 1rem;
-  text-shadow: 2px 2px #00334e
-}
-
-/* Navigation Bar Section */
+/* Horizontal Navigation Bar */
 .custom-navbr-bg{
   background-color: #145374;
 }
@@ -168,11 +138,67 @@ p {
   padding: 0 18px;
 }
 
+/* Vertical Navigation sidebar */
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+/* Page Content */
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+/* Intro section */
+#intro {
+
+}
+
+.bio-info {
+  color: #ececec;
+  font-family: "Cutive Mono", monospace;
+  font-size: 1.7rem;
+  margin: 0 auto 2rem;
+  text-shadow: 1px 2px #35477d;
+  max-width: 78%;
+}
+
+.intro-container{
+  padding: 4% 5%;
+}
+
+.main-header {
+  /* color: #ececec; */
+  color: #f1935c ;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 5.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+  text-shadow: 2px 2px #00334e
+}
+
 /* Preface Section */
 #preface {
   background-color: #d6e4f0;
   text-align: left;
-  padding: 5% 12%;
+  padding: 0;
 }
 
 /* Personal projects Section */
@@ -184,7 +210,7 @@ p {
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   height: 30px;
-  width: 30px;
+  max-width: 30px;
 }
 
 .carousel-indicators {
@@ -203,14 +229,14 @@ p {
   display: inline-block;
   margin: 0 auto;
   text-align: left;
-  width: 28rem;
+  max-width: 28rem;
   vertical-align: middle;
 }
 
 .books {
   height: 173px;
   margin: 0 auto;
-  width: 172px;
+  max-width: 172px;
   vertical-align: middle;
 }
 
@@ -235,7 +261,7 @@ p {
 .footer-info {
   margin: auto;
   padding: 0 0 20px;
-  width: 40%;
+  max-width: 40%;
 }
 
 .social-icon {
@@ -250,7 +276,7 @@ p {
 
 ::-webkit-scrollbar {
     background-color: #145374 ;
-    width: 14px;
+    max-width: 14px;
 }
 
 ::-webkit-scrollbar-track {
@@ -262,4 +288,23 @@ p {
     background-color: #5588a3;
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+
+/*************************************************************************************************/
+/*                                  Mobile Code                                       ``         */
+/*************************************************************************************************/
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
 }
