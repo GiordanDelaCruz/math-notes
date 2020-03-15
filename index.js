@@ -3,7 +3,12 @@
 */
 
 // Event Listener for the button contolling the side-navbar
+// $("#menu-toggle").click(function(e) {
+//   // e.preventDefault();
+//   $("#wrapper").toggleClass("toggled");
+// });
+
 $("#menu-toggle").click(function(e) {
-  e.preventDefault();
-  $("#wrapper").toggleClass("toggled");
-});
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+}).click();  //click triggered....

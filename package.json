@@ -1,0 +1,23 @@
+{
+  "name": "math-notes",
+  "version": "1.0.0",
+  "description": "A test server for hosting Giordan's ONline Math Notes",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiordanDelaCruz/math-notes.git"
+  },
+  "author": "Giordan Andrew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiordanDelaCruz/math-notes/issues"
+  },
+  "homepage": "https://github.com/GiordanDelaCruz/math-notes#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
