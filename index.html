@@ -6,7 +6,7 @@
   <meta name="description" content="A online resource for various elementary & high school topics in Math.">
   <meta name="keywords" content="Math, Notes, Giordan, Online">
   <meta name="author" content="Giordan Andrew">
-  <link rel="icon" href="images/giordan-andrew-logo-blue.png">
+  <link rel="icon" href="images/giordan-andrew-logo.png">
   <title>Giordan's Math Notes</title>
 
   <!-- Style sheets -->
@@ -18,6 +18,7 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cutive+Mono|Sorts+Mill+Goudy|Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Marck+Script|Tangerine&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -32,16 +33,20 @@
 
     <!-- Sidebar -->
     <div class="bg-dark border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading bg-black">
+      <div class="sidebar-heading bg-dark-black">
         <img class="giordan-logo" src="images/giordan-logo.png" alt="Logo for Giordan's Math Notes">
-        <p class="logo-description">A online resource for various elementary & high school topics in Math.</p>
+        <p class="text-ad-description left-align text-white full-black-shadow">A online resource for various elementary & high school topics in Math.</p>
       </div>
       <div class="list-group list-group-flush">
-        <a href="chapters.html" class="list-group-item list-group-item-action bg-danger text-white">Table of Contents</a>
-        <a href="chapters.html" class="list-group-item list-group-item-action bg-success text-white">Arithmetic</a>
-        <a href="#" class="list-group-item list-group-item-action bg-success text-white">Algebra</a>
-        <a href="#" class="list-group-item list-group-item-action bg-success text-white">Geometry</a>
-
+        <a href="chapters.html" class="list-group-item list-group-item-action bg-danger text-white full-black-shadow text-lessons">Table of Contents</a>
+        <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Arithmetic</p>
+        <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Order Of Operations</a>
+        <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Fractions</a>
+        <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Scientific Notation</a>
+        <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Algebra</p>
+        <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Solve the Equation</a>
+        <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Operations with Variables</a>
+        <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Geometry</p>
       </div>
     </div>
 
@@ -53,10 +58,10 @@
       <div class="container-fluid">
 
         <!-- Intro -->
-        <section class="colored-section" id="intro">
+        <section class="bg-light-black" id="intro">
 
           <!-- Horizontal Nav Bar -->
-          <nav class="navbar navbar-dark bg-black">
+          <nav class="navbar navbar-dark bg-dark-black">
             <button class="navbar-toggler" id="menu-toggle" type="button"aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -64,37 +69,32 @@
               <img class="giordan-logo" src="images/giordan-logo.png" alt="">
             </a>
           </nav>
-
           <div class="container">
             <div class="row">
-              <div class="intro-container col-lg-12">
+              <div class="home-container col-lg-12">
                 <img class="giordan-logo" src="images/giordan-logo.png" alt="">
-                <p class="logo-description">A online resource for various elementary & high school topics in Math.</p>
+                <p class="logo-description text-white full-black-shadow text-big">A online resource for various elementary & high school topics in Math.</p>
               </div>
             </div>
           </div>
         </section>
 
         <!-- Preface -->
-        <section class="" id="preface">
+        <section class="section-container bg-beige left-align" id="preface">
           <table class="table-for-headers">
             <tr>
-              <td><h2 class="section-header custom-black-underline">Preface.</h2></td>
+              <td><h2 class="section-header text-night-black grey-shadow custom-black-underline">Preface.</h2></td>
             </tr>
           </table>
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
+              <div class="col-lg-6">
                 <table class="table-for-sub-headers">
                   <tr>
-                    <td><h3 class="sub-header custom-white-underline">Introduction.</h3>
+                    <td><h3 class="sub-header text-night-black custom-black-underline">Introduction.</h3>
                   </tr>
                 </table>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <p class="text-white">As a tutor, I often find students encountering difficulty with the baisc fundamentals of math
+                <p class="text-black">As a tutor, I often find students encountering difficulty with the baisc fundamentals of math
                   such as terminology, order of operations, multiplying and/or subtracting, solving the equation, scientific and exponential notation,
                   and much more. Due to the vast amounts of concepts in Mathematics, these notes will only focus on a selected few.
                   <br><br>
@@ -106,20 +106,20 @@
                   <br><br>
                   <strong>Happy learning!😊</strong>
                   <br><br>
-                  <strong><em>- Giordan A.</em></strong>
+                  <p class="text-intial amethyst-shadow">Giordan Andrew.</p>
                 </p>
               </div>
-              <div class="col-lg-6 center">
+              <div class="col-lg-6 center-align">
 
                 <div class="alert alert-warning alert-dismissible fade show px-3 mt-5" role="alert">
                   <h4 class="alert-heading mb-3">Secret to Success!</h4>
-                  <p class="text-sm-left">
+                  <p class="text-sm-left text-sticky-note">
                     <strong>Q:</strong> Have you ever wondered what makes a person <strong>smart</strong>?
                     <br>
                     <strong>A:</strong> People are not born smart, they <strong>work hard</strong> for it.
                   </p>
                   <hr>
-                  <p class="text-sm-left">
+                  <p class="text-sm-left text-sticky-note">
                     Intelligent people have 2 very important character traits;
                     <br>
                     <strong>1) Perseverance</strong>
@@ -127,7 +127,7 @@
                     <strong> 2) Mindset</strong>
                     <br>
                   </p>
-                  <p class="text-sm-left">
+                  <p class="text-sm-left text-sticky-note">
                     To achieve sucess and meet any of your goals, it is <strong>crucial</strong> that you have a strong
                     <strong>work ethic</strong> & <strong>mindset!</strong> You need to put in <strong>time</strong>,
                     <strong>effort</strong>, & <strong>focus</strong> if you want to make any of your <strong><em>dreams</em></strong>
@@ -149,10 +149,13 @@
         </section>
 
         <!-- Some Topics Convered -->
-        <section class="colored-section" id="topics-covered">
-          <h2 class="section-header">Topics Covered.</h2>
-          <hr>
-          <section class="" id="testimonials">
+        <section class="section-container bg-sand" id="topics-covered">
+          <table class="table-for-headers">
+            <tr>
+              <td><h2 class="section-header text-night-black custom-black-underline">Topics Covered.</h2></td>
+            </tr>
+          </table>
+
             <div id="personal-projects-carousel" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators ">
                 <li data-target="#personal-projects-carousel" data-slide-to="0" class="active"></li>
@@ -161,18 +164,29 @@
               <div class="carousel-inner">
                 <div class="container">
                   <div class="carousel-item active">
-                    <h3 class="sub-header">Lorem ipsum.</h3>
-                    <p class="carousel-information">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                      labore et dolore magna aliqua. Faucibus a pellentesque sit amet. Ut lectus arcu bibendum at varius.
-                      Convallis convallis tellus id interdum velit. Ultricies integer quis auctor elit sed vulputate mi sit.
-                      Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Dui vivamus arcu felis
-                      bibendum ut tristique.
-                    </p>
-                    <img class="asl-hands" src="images/asl-hands.png" alt="A picture of hands communicating 'asl' in sign language.">
+                    <div class="row">
+                      <table class="table-for-sub-headers">
+                        <tr>
+                          <td><h3 class="sub-header text-night-black custom-black-underline">Lorem ipsum.</h3>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <p class="carousel-information">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Faucibus a pellentesque sit amet. Ut lectus arcu bibendum at varius.
+                        Convallis convallis tellus id interdum velit. Ultricies integer quis auctor elit sed vulputate mi sit.
+                        Metus vulputate eu scelerisque felis imperdiet proin fermentum leo vel. Dui vivamus arcu felis
+                        bibendum ut tristique.
+                      </p>
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <h3 class="sub-header">Fractions.</h3>
+                    <table class="table-for-sub-headers">
+                      <tr>
+                        <td><h3 class="sub-header text-night-black custom-black-underline">Fractions.</h3>
+                      </tr>
+                    </table>
                     <p class="carousel-information">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                       labore et dolore magna aliqua. Faucibus a pellentesque sit amet. Ut lectus arcu bibendum at varius.
@@ -193,19 +207,18 @@
                 </a>
               </div>
             </div>
-          </section>
         </section>
 
         <!-- Footer -->
-        <footer class="bg-black" id="footer">
-          <h3 class="sub-header">Have a question?</h3>
-          <p class="footer-info">Feel free to contact me via email with the link below!</p>
+        <footer class="bg-dark-black" id="footer">
+          <h3 class="sub-header text-white">Have a question?</h3>
+          <p class="footer-info text-white">Feel free to contact me via email with the link below!</p>
           <a href="https://github.com/GiordanDelaCruz"> <i class="social-icon fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/giordan-dela-cruz/"><i class="social-icon fab fa-linkedin"></i></a>
           <a href="https://www.instagram.com/giordanandrew/"><i class="social-icon fab fa-instagram"></i></a>
           <a href="mailto:giordandelacruz@gmail.com"><i class="social-icon fas fa-envelope"></i></a>
           <br>
-          <p class="copyright">© Copyright 2020 GiordanAndrew</p>
+          <p class="text-small text-white">© Copyright 2020 GiordanAndrew</p>
         </footer>
 
       </div>

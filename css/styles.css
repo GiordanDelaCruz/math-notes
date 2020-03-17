@@ -13,24 +13,30 @@ hr {
 }
 
 p {
-  font-family: 'Halant', serif;
+  font-family: 'Helvetica', sans-serif;
   font-size: 1.1rem;
   color: #3c4245;
+}
+
+a{
+  font-family: 'Helvetica', sans-serif;
+  font-size: 1.2rem;
 }
 
 /*************************************************************************************************/
 /*                                 Class & ID Selectors                                          */
 /*************************************************************************************************/
 
-/* General Stuff */
-.center {
+/* Alignments */
+.center-align {
   text-align: center;
 }
 
-.colored-section {
-  background-color: #393e46;
+.left-align{
+  text-align: left;
 }
 
+/* Containers */
 .container-fluid {
   padding: 0;
 }
@@ -39,30 +45,125 @@ p {
   padding: 2% 2%;
 }
 
-.definition {
-
+.section-container{
+  padding: 4.5% 12%;
 }
 
-#sidebar-wrapper .text-white{
-  color: #fff;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.2rem;
-  text-shadow: 2px 2px #000
+.home-container{
+  padding: 4% 5%;
 }
 
-.bg-black{
+/* Background Colors */
+.bg-dark-black{
   background-color: #222831;
 }
 
-/* Paragraphs */
-.information {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 28rem;
-  vertical-align: middle;
+.bg-light-black{
+  background-color: #393e46;
 }
 
+.bg-light-grey{
+  background-color: #E0E0E0;
+}
+
+.bg-beige{
+  background-color: #ece8d9;
+}
+
+.bg-cream{
+  background-color: #faf6e9;
+}
+
+.bg-charcoal{
+  background-color: #41444b;
+}
+
+.bg-sand{
+  background-color: #cabfab;
+}
+
+/* Text Colors */
+.text-black{
+  color: #333;
+}
+
+.text-night-black{
+  color: #101010;
+}
+
+.text-full-black{
+  color: #000;
+}
+
+.text-white{
+  color: #fff;
+}
+
+.text-intial{
+  color: #000;
+  font-family: 'Tangerine', cursive;
+  font-size: 3.3rem;
+}
+
+.text-sticky-note{
+  color: #856404;
+  font-family: 'Halant', serif;
+}
+
+/* Text Shadows */
+.amethyst-shadow{
+  text-shadow: 1px 1px #8559a5;
+}
+
+.ocean-shadow{
+  text-shadow: 1px 1px #00334e;
+}
+
+.grey-shadow{
+  text-shadow: 1px 1px #808080;
+}
+
+.full-black-shadow{
+  text-shadow: 2px 2px #000
+}
+
+/* Text Size */
+.text-big{
+  font-size: 1.7rem;
+}
+
+.text-small{
+  font-size: 0.8rem;
+}
+
+.text-ad-description{
+  font-size: 0.87rem;
+  margin-top: 0.5rem;
+  max-width: 200px;
+}
+
+.text-lessons{
+  font-size: 1.2rem;
+}
+
+/* Images */
+.giordan-logo{
+  margin: 10px 1px 6px;
+  width: 10rem;
+}
+
+.home-container .giordan-logo{
+  margin: 10px 1px 6px;
+  padding-bottom: 1.5rem;
+  width: 40rem;
+}
+
+.math-operators {
+  padding-top: 2rem;
+  max-width: 280px;
+}
+
+/* Underline */
 .underline {
   text-decoration: underline;
 }
@@ -84,69 +185,23 @@ p {
   margin-bottom: 1rem;
 }
 
-.section-header {
-  color: #1a1a1a;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 3.2rem;
+.section-header{
+  font-family: 'Marck Script', cursive;
+  font-size: 4em;
   font-weight: bold;
   text-align: center;
-  text-shadow: -1px -1px #fff;
 }
 
 .sub-header{
-  color: #eeeeee;
   font-family: 'Helvetica', sans-serif;
   font-size: 2.1rem;
   font-weight: bold;
-  text-shadow: 1px 2px #000;
 }
 
-.custom-left-section,
-.custom-right-section {
-  padding: 0 1rem 2rem;
-}
-
-/* Images */
-.asl-hands {
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-}
-
-.giordan-logo{
-  margin: 10px 1px 6px;
-  width: 10rem;
-}
-
-.intro-container .giordan-logo{
-  margin: 10px 1px 6px;
-  padding-bottom: 1.5rem;
-  width: 40rem;
-}
-
-.sidebar-heading .logo-description{
-  color: #fff;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 0.87rem;
-  margin-top: 0.5rem;
-  max-width: 200px;
-  text-align: left;
-  text-shadow: 2px 2px #000
-}
-
-.intro-container .logo-description{
-  color: #fff;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.7rem;
+/* Information */
+.logo-description{
   margin: 0.8rem auto;
   max-width: 800px;
-  text-align: center;
-  text-shadow: 2px 2px #000
-}
-
-.math-operators {
-  padding-top: 2rem;
-  max-width: 280px;
 }
 
 /* Vertical Navigation sidebar */
@@ -176,62 +231,6 @@ p {
   margin: 0;
 }
 
-/* Intro section */
-#intro {
-
-}
-
-.bio-info {
-  color: #ececec;
-  font-family: "Cutive Mono", monospace;
-  font-size: 1.7rem;
-  margin: 0 auto 2rem;
-  text-shadow: 1px 2px #35477d;
-  max-width: 78%;
-}
-
-.intro-container{
-  padding: 4% 5%;
-}
-
-.main-header {
-  /* color: #ececec; */
-  color: #f7f7f7 ;
-  font-family: 'Alegreya Sans SC', sans-serif;
-  font-size: 5.2rem;
-  font-weight: bold;
-  margin: 2rem 0 1rem;
-  text-shadow: 2px 2px #00334e
-}
-
-/* Preface Section */
-#preface {
-  background-color: #5c6470;
-  text-align: left;
-  padding: 3% 12%;
-}
-
-.text-white{
-  color: #fff;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.075rem;
-  text-shadow: 1px 1px #00334e
-}
-
-.text-emp{
-  color: #ffc107;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.075rem;
-  text-shadow: 1px 1px #0f3e1a
-}
-
-/* Topics Covered Section */
-#topics-covered {
-  background-color: #5c636e;
-  text-align: left;
-  padding: 3% 12%;
-}
-
 /* Carousel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -247,10 +246,6 @@ p {
   margin-bottom:50px;
 }
 
-.carousel-item {
-  height: 27rem;
-}
-
 .carousel-information {
   display: inline-block;
   margin: 0 auto;
@@ -259,28 +254,9 @@ p {
   vertical-align: middle;
 }
 
-.books {
-  height: 173px;
-  margin: 0 auto;
-  max-width: 172px;
-  vertical-align: middle;
-}
-
 /* Footer Section*/
 #footer{
   padding: 2% 0 1.6%;
-}
-
-#footer .sub-header {
-  color: #ffffff;
-}
-
-#footer p {
-  color: #ffffff;
-}
-
-.copyright {
-  font-size: 0.8rem;
 }
 
 .footer-info {
@@ -293,7 +269,6 @@ p {
   padding: 0 0.7rem 0.8rem;
   color: white;
 }
-
 
 /*************************************************************************************************/
 /*                                  Pseudo Class Selectors                                       */
