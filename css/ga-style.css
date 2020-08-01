@@ -1,0 +1,110 @@
+/*************************************************************************************************/
+/*                                      Class Selectors                                          */
+/*************************************************************************************************/
+
+/* Background Colors */
+.bg-full-black{
+  background-color: #000000;
+}
+
+.bg-raisin-black{
+  background-color: #262626;
+}
+
+.bg-dark-black{
+  background-color: #222831;
+}
+
+.bg-light-black{
+  background-color: #393e46;
+}
+
+.bg-dark-grey{
+  background-color: #A9A9A9;
+}
+
+.bg-light-grey{
+  background-color: #E0E0E0;
+}
+
+.bg-light-grey-2{
+  background-color: #f0f0f0;
+}
+
+.bg-light-grey-3{
+  background-color: #f4f4f4;
+}
+
+.bg-snow-white{
+  background-color: #f8f9fa;
+}
+
+.bg-full-white{
+  background-color: #fff;
+}
+
+.bg-beige{
+  background-color: #ece8d9;
+}
+
+.bg-cream{
+  background-color: #faf6e9;
+}
+
+.bg-charcoal{
+  background-color: #41444b;
+}
+
+.bg-sand{
+  background-color: #cabfab;
+}
+
+/* Text Colors */
+.text-full-black{
+  color: #000;
+}
+
+.text-light-black{
+  background-color: #434f58;
+}
+
+.text-night-black{
+  color: #101010;
+}
+
+.text-black{
+  color: #333;
+}
+
+.text-charcoal{
+  color: #41444b;
+}
+
+.text-full-white{
+  color: #fff;
+}
+
+/* Text Shadows */
+.amethyst-shadow{
+  text-shadow: 1px 1px #8559a5;
+}
+
+.maroon-shadow{
+  /* text-shadow: 1px 1px #800000;   */
+}
+
+.ocean-shadow{
+  text-shadow: 1px 1px #00334e;
+}
+
+.grey-shadow{
+  text-shadow: 1px 1px #808080;
+}
+
+.full-black-shadow{
+  text-shadow: 1px 1px #000
+}
+
+.shadow-3d{
+  text-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}

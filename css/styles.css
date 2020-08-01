@@ -2,8 +2,9 @@
 /*                                       Tag Selectors                                           */
 /*************************************************************************************************/
 body{
-  text-align: center;
   margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  /* text-align: center; */
   overflow-x: hidden;
 }
 
@@ -13,13 +14,14 @@ hr {
 }
 
 p {
-  font-family: 'Helvetica', sans-serif;
-  font-size: 1.1rem;
   color: #3c4245;
+  /* font-family: 'Helvetica', sans-serif; */
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 
 a{
-  font-family: 'Helvetica', sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
   font-size: 1.2rem;
 }
 
@@ -53,78 +55,16 @@ a{
   padding: 4% 5%;
 }
 
-/* Background Colors */
-.bg-dark-black{
-  background-color: #222831;
-}
-
-.bg-light-black{
-  background-color: #393e46;
-}
-
-.bg-light-grey{
-  background-color: #E0E0E0;
-}
-
-.bg-beige{
-  background-color: #ece8d9;
-}
-
-.bg-cream{
-  background-color: #faf6e9;
-}
-
-.bg-charcoal{
-  background-color: #41444b;
-}
-
-.bg-sand{
-  background-color: #cabfab;
-}
-
-/* Text Colors */
-.text-black{
-  color: #333;
-}
-
-.text-night-black{
-  color: #101010;
-}
-
-.text-full-black{
-  color: #000;
-}
-
-.text-white{
-  color: #fff;
-}
-
 .text-intial{
   color: #000;
-  font-family: 'Tangerine', cursive;
+  /* font-family: 'Tangerine', cursive; */
+  font-family: 'Indie Flower', cursive;
   font-size: 3.3rem;
 }
 
 .text-sticky-note{
-  color: #856404;
+  /* color: #856404; */
   font-family: 'Halant', serif;
-}
-
-/* Text Shadows */
-.amethyst-shadow{
-  text-shadow: 1px 1px #8559a5;
-}
-
-.ocean-shadow{
-  text-shadow: 1px 1px #00334e;
-}
-
-.grey-shadow{
-  text-shadow: 1px 1px #808080;
-}
-
-.full-black-shadow{
-  text-shadow: 2px 2px #000
 }
 
 /* Text Size */
@@ -177,25 +117,22 @@ a{
 }
 
 /* Headings */
-.table-for-headers{
-  margin: auto;
-}
-
-.table-for-sub-headers{
-  margin-bottom: 1rem;
-}
-
 .section-header{
-  font-family: 'Marck Script', cursive;
+  /* font-family: 'Marck Script', cursive; */
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 4em;
   font-weight: bold;
-  text-align: center;
+  margin-bottom: 55px;
 }
 
 .sub-header{
-  font-family: 'Helvetica', sans-serif;
+  /* font-family: 'Helvetica', sans-serif; */
+  display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 2.1rem;
   font-weight: bold;
+  margin-bottom: 23px;
 }
 
 /* Information */
@@ -256,7 +193,7 @@ a{
 
 /* Footer Section*/
 #footer{
-  padding: 2% 0 1.6%;
+  padding: 4rem 0 2rem;
 }
 
 .footer-info {

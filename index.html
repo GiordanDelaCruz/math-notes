@@ -12,6 +12,7 @@
   <!-- Style sheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/ga-style.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/f3da30bb5f.js" crossorigin="anonymous"></script>
@@ -19,6 +20,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cutive+Mono|Sorts+Mill+Goudy|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marck+Script|Tangerine&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -38,7 +40,7 @@
         <p class="text-ad-description left-align text-white full-black-shadow">A online resource for various elementary & high school topics in Math.</p>
       </div>
       <div class="list-group list-group-flush">
-        <a href="chapters.html" class="list-group-item list-group-item-action bg-danger text-white full-black-shadow text-lessons">Table of Contents</a>
+        <a href="table-of-contents.html" class="list-group-item list-group-item-action bg-danger text-white full-black-shadow text-lessons">Table of Contents</a>
         <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Arithmetic</p>
         <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Order Of Operations</a>
         <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Fractions</a>
@@ -71,7 +73,7 @@
           </nav>
           <div class="container">
             <div class="row">
-              <div class="home-container col-lg-12">
+              <div class="home-container col-lg-12 text-center">
                 <img class="giordan-logo" src="images/giordan-logo.png" alt="">
                 <p class="logo-description text-white full-black-shadow text-big">A online resource for various elementary & high school topics in Math.</p>
               </div>
@@ -80,20 +82,16 @@
         </section>
 
         <!-- Preface -->
-        <section class="section-container bg-beige left-align" id="preface">
-          <table class="table-for-headers">
-            <tr>
-              <td><h2 class="section-header text-night-black grey-shadow custom-black-underline">Preface.</h2></td>
-            </tr>
-          </table>
+        <section class="section-container bg-light-grey-2 left-align" id="preface">
           <div class="container">
             <div class="row">
+              <div class="col-lg-12">
+                <h2 class="section-header text-night-black grey-shadow custom-black-underline">Preface.</h2>
+              </div>
+            </div>
+            <div class="row">
               <div class="col-lg-6">
-                <table class="table-for-sub-headers">
-                  <tr>
-                    <td><h3 class="sub-header text-night-black custom-black-underline">Introduction.</h3>
-                  </tr>
-                </table>
+                <h3 class="sub-header text-night-black custom-black-underline">Introduction.</h3>
                 <p class="text-black">As a tutor, I often find students encountering difficulty with the baisc fundamentals of math
                   such as terminology, order of operations, multiplying and/or subtracting, solving the equation, scientific and exponential notation,
                   and much more. Due to the vast amounts of concepts in Mathematics, these notes will only focus on a selected few.
@@ -106,12 +104,12 @@
                   <br><br>
                   <strong>Happy learning!😊</strong>
                   <br><br>
-                  <p class="text-intial amethyst-shadow">Giordan Andrew.</p>
+                  <p class="text-intial">Giordan Andrew.</p>
                 </p>
               </div>
               <div class="col-lg-6 center-align">
 
-                <div class="alert alert-warning alert-dismissible fade show px-3 mt-5" role="alert">
+                <div class="alert alert-danger alert-dismissible fade show px-3 mt-5" role="alert">
                   <h4 class="alert-heading mb-3">Secret to Success!</h4>
                   <p class="text-sm-left text-sticky-note">
                     <strong>Q:</strong> Have you ever wondered what makes a person <strong>smart</strong>?
@@ -134,8 +132,7 @@
                     into <strong><em>reality</em></strong>!!
                     <br><br>
                     In life, it is <strong>OK</strong> to <strong>fail</strong> and not get <strong>everything right</strong>, nobody is
-                    perfect. The important thing is you <strong>learn</strong> from every <strong>failure</strong>. You use every
-                    <strong>expierence</strong> you encounter for <strong>growth</strong>. When you meet with failure, don't think with a
+                    perfect. The important thing is you <strong>learn</strong> from every <strong>failure</strong>. Don't think with a
                     <strong>"I can't do this"</strong> mindset. Think with a <strong>"How can I do this" </strong>mindset.
                   </p>
                   <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -149,7 +146,7 @@
         </section>
 
         <!-- Some Topics Convered -->
-        <section class="section-container bg-sand" id="topics-covered">
+        <!-- <section class="section-container bg-sand" id="topics-covered">
           <table class="table-for-headers">
             <tr>
               <td><h2 class="section-header text-night-black custom-black-underline">Topics Covered.</h2></td>
@@ -207,10 +204,10 @@
                 </a>
               </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Footer -->
-        <footer class="bg-dark-black" id="footer">
+        <footer class="bg-dark-black text-center" id="footer">
           <h3 class="sub-header text-white">Have a question?</h3>
           <p class="footer-info text-white">Feel free to contact me via email with the link below!</p>
           <a href="https://github.com/GiordanDelaCruz"> <i class="social-icon fab fa-github"></i></a>
