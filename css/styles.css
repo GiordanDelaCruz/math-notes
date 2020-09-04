@@ -28,26 +28,14 @@ a{
 /*                                 Class & ID Selectors                                          */
 /*************************************************************************************************/
 
-/* Alignments */
-.center-align {
-  text-align: center;
-}
-
-.left-align{
-  text-align: left;
-}
-
 /* Containers */
 .container-fluid {
   padding: 0;
 }
 
 .container {
-  padding: 2% 2%;
-}
-
-.section-container{
-  padding: 4.5% 12%;
+  text-align: left;
+  padding: 4rem 3rem;
 }
 
 .home-container{
@@ -128,7 +116,7 @@ a{
   font-family: 'Ubuntu', sans-serif;
   font-size: 4em;
   font-weight: bold;
-  margin-bottom: 55px;
+  margin-bottom: 35px;
 }
 
 .sub-header{
@@ -172,31 +160,8 @@ a{
   margin: 0;
 }
 
-/* Carousel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  height: 30px;
-  max-width: 30px;
-}
-
-.carousel-indicators {
-  bottom:-50px;
-}
-
-.carousel-inner {
-  margin-bottom:50px;
-}
-
-.carousel-information {
-  display: inline-block;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 28rem;
-  vertical-align: middle;
-}
-
 /* Footer Section*/
-#footer{
+footer{
   padding: 4rem 0 2rem;
 }
 
