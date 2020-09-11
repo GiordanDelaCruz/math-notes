@@ -6,13 +6,13 @@
   <meta name="description" content="A online resource for various elementary & high school topics in Math.">
   <meta name="keywords" content="Math, Notes, Giordan, Online">
   <meta name="author" content="Giordan Andrew">
-  <link rel="icon" href="images/giordan-andrew-logo.png">
+  <link rel="icon" href="../../images/giordan-andrew-logo.png">
   <title>Giordan's Math Notes</title>
 
   <!-- Style sheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/ga-style.css">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <link rel="stylesheet" href="../../css/ga-style.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/f3da30bb5f.js" crossorigin="anonymous"></script>
@@ -21,6 +21,9 @@
   <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Cutive+Mono|Sorts+Mill+Goudy|Source+Sans+Pro&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Marck+Script|Tangerine&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+  <!-- MathJax -->
+  <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 
   <!-- Bootstrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -35,16 +38,16 @@
 
     <!-- Sidebar -->
     <div class="bg-dark border-right" id="sidebar-wrapper">
-      <a href="#">
+      <a href="../../index.html">
         <div class="sidebar-heading bg-dark-black">
-          <img class="giordan-logo" src="images/giordan-logo.png" alt="Logo for Giordan's Math Notes">
+          <img class="giordan-logo" src="../../images/giordan-logo.png" alt="Logo for Giordan's Math Notes">
           <p class="text-ad-description left-align text-white full-black-shadow">A online resource for various elementary & high school topics in math.</p>
         </div>
       </a>
       <div class="list-group list-group-flush">
-        <a href="table-of-contents.html" class="list-group-item list-group-item-action bg-danger text-white full-black-shadow text-lessons">Table of Contents</a>
+        <a href="../../table-of-contents.html" class="list-group-item list-group-item-action bg-danger text-white full-black-shadow text-lessons">Table of Contents</a>
         <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Arithmetic</p>
-        <a href="branches/arithmetic/order-of-operations.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Order Of Operations</a>
+        <a href="#" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Order Of Operations</a>
         <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Fractions</a>
         <a href="chapters.html" class="bg-dark list-group-item list-group-item-action text-white full-black-shadow text-lessons">Scientific Notation</a>
         <p class="list-group-item list-group-item-action bg-success text-white full-black-shadow text-lessons">Algebra</p>
@@ -62,91 +65,101 @@
       <div class="container-fluid">
 
         <!-- Intro -->
-        <section class="bg-light-black" id="intro">
+        <section class="bg-light-black text-center" id="intro">
 
           <!-- Horizontal Nav Bar -->
           <nav class="navbar navbar-dark bg-dark-black">
             <button class="navbar-toggler" id="menu-toggle" type="button"aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-           <a class="navbar-brand text-xs-left" href="#">
-              <img class="giordan-logo" src="images/giordan-logo.png" alt="">
+           <a class="navbar-brand text-xs-left" href="../../index.html">
+              <img class="giordan-logo" src="../../images/giordan-logo.png" alt="">
             </a>
           </nav>
+
           <div class="container">
             <div class="row">
-              <div class="home-container col-lg-12 text-center">
-                <img class="giordan-logo" src="images/giordan-logo.png" alt="">
-                <p class="logo-description text-white full-black-shadow text-big">A online resource for various elementary & high school topics in math.</p>
-              </div>
+              <div class="home-container col-lg-12">
+                <h1 class="main-header text-white full-black-shadow">Order of Operations.</h1>
+                <p class="text-white full-black-shadow text-big">
+                  Rules which express what operation to perform first.
+                </p>
             </div>
           </div>
         </section>
 
-        <!-- Preface -->
-        <section class="bg-light-grey-2 left-align" id="preface">
+        <!-- Lesson -->
+        <section class="bg-light-grey-2">
           <div class="container">
             <div class="row">
-              <div class="col-lg-12">
-                <h2 class="section-header text-night-black grey-shadow custom-black-underline">Preface.</h2>
+              <div class="col">
+                  <h3 class="sub-header custom-black-underline">Definitions.</h3>
+                  <p class="definition"><strong class="underline">Operator:</strong> A mathematical symbol which is used to represent some behavior/effect. For example '+' &  '-' are operators since they represent addition and subtraction respectively. </p>
+                  <p class="definition"><strong class="underline">Operand:</strong> Any number or variable.</p>
+                  <p class="definition"><strong class="underline">Variable:</strong> A letter which is used to represent some unknown value.</p>
+
+                  <div class="jumbotron shadow-sm p-3 mb-5 bg-white rounded">
+                    <p class="">
+                      <strong>
+                        <em>E.g</em>
+                      </strong>
+                      <br>
+                      a) Given the equation, \(x + 7 = 4\), there are <strong>3 operands</strong>, and <strong>1 operators</strong>.<br>
+                      <strong>Operands: 'x', '7', '4'</strong><br>
+                      <strong>Operators: '+'</strong>
+                      <br><br>
+                      b) Given the equation, \(y - 2 + 3 - 8 = 0\), there are <strong>5 operands</strong>, and <strong>3 operators</strong>.<br>
+                      <strong>Operands: 'y', '2', '3', '8', '0'</strong><br>
+                      <strong>Operators: '-', '+', '-'</strong>
+                    </p>
+                  </div>
+
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <h3 class="sub-header text-night-black custom-black-underline">Introduction.</h3>
-                <p class="text-black">As a tutor, I often find students encountering difficulty with the baisc fundamentals of math
-                  such as terminology, order of operations, multiplying and/or subtracting, solving the equation, scientific and exponential notation,
-                  and much more. Due to the vast amounts of concepts in mathematics, these notes will only focus on a selected few.
-                  <br><br>
-                  Each lesson will consists of definitions, solved examples, and several pratice questions with solutions. I <strong class="text-emp">highly recommend</strong>
-                  you <strong class="text-emp">attempt</strong> these pratice questions <strong class="text-emp">before</strong> you take a look at the solutions. The purpose of this is to
-                  make mistakes and test if you really understand the concepts.
-                  <br><br>
-                  I hope each lesson will benefit you as you progress your journey in learning mathematics.
-                  <br><br>
-                  <strong>Happy learning!😊</strong>
-                  <br><br>
-                  <p class="text-intial">Giordan Andrew.</p>
+          <div class="row">
+            <div class="col">
+              <h3 class="sub-header custom-black-underline">Key Concept.</h3>
+              <p class="light-paragraph">
+                The order of operations are a set of rules that inform which mathematical operation to perform first. Luckily, there is an easy way to remember which operations to perform first — <span class="text-crimson">BEDMAS</span>.
+              </p>
+              <p>
+                <span class="text-jumbo text-crimson">B</span>rackets <br>
+                <span class="text-jumbo text-crimson">E</span>xponents <br>
+                <span class="text-jumbo text-crimson">D</span>ivision <br>
+                <span class="text-jumbo text-crimson">M</span>ultiplication <br>
+                <span class="text-jumbo text-crimson">A</span>ddition <br>
+                <span class="text-jumbo text-crimson">S</span>ubtraction <br>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3 class="sub-header custom-black-underline">Solved Examples.</h3>
+
+              <p class="">
+                <strong>1.</strong> Solve the following questions
+                <br>
+                a) 3 + 5 - 9 × 6 = ?
+              </p>
+
+              <div class="jumbotron shadow-sm p-3 mb-5 bg-white rounded">
+                <p class="">
+                  <strong>1.</strong> Solve the following questions
+                  <br>
+                  a) 3 + 5 - 9 × 6 = ?
                 </p>
               </div>
-              <div class="col-lg-6 center-align">
 
-                <div class="alert alert-danger alert-dismissible fade show px-3 mt-5" role="alert">
-                  <h4 class="alert-heading mb-3">Secret to Success!</h4>
-                  <p class="text-sm-left text-sticky-note">
-                    <strong>Q:</strong> Have you ever wondered what makes a person <strong>smart</strong>?
-                    <br>
-                    <strong>A:</strong> People are not born smart, they <strong>work hard</strong> for it.
-                  </p>
-                  <hr>
-                  <p class="text-sm-left text-sticky-note">
-                    Intelligent people have 2 very important character traits;
-                    <br>
-                    <strong>1) Perseverance</strong>
-                    <br>
-                    <strong> 2) Mindset</strong>
-                    <br>
-                  </p>
-                  <p class="text-sm-left text-sticky-note">
-                    To achieve sucess and meet any of your goals, it is <strong>crucial</strong> that you have a strong
-                    <strong>work ethic</strong> & <strong>mindset!</strong> You need to put in <strong>time</strong>,
-                    <strong>effort</strong>, & <strong>focus</strong> if you want to make any of your <strong><em>dreams</em></strong>
-                    into <strong><em>reality</em></strong>!!
-                    <br><br>
-                    In life, it is <strong>OK</strong> to <strong>fail</strong> and not get <strong>everything right</strong>, nobody is
-                    perfect. The important thing is you <strong>learn</strong> from every <strong>failure</strong>. Don't think with a
-                    <strong>"I can't do this"</strong> mindset. Think with a <strong>"How can I do this" </strong>mindset.
-                  </p>
-                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-              </div>
             </div>
-
+          </div>
+          <div class="row">
+            <div class="col">
+              <h3 class="sub-header custom-black-underline">Practice Questions.</h3>
+              <p></p>
+            </div>
+          </div>
           </div>
         </section>
-
 
         <!-- Footer -->
         <footer class="bg-dark-black text-center" id="footer">
@@ -170,7 +183,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Custom JavaScript -->
-  <script src="scripts/index.js"></script>
+  <script src="../../scripts/index.js"></script>
 
 </body>
 

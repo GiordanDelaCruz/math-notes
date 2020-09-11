@@ -55,12 +55,21 @@ a{
 }
 
 /* Text Size */
+
+.text-jumbo{
+  font-size: 2.7rem;
+}
+
 .text-big{
   font-size: 1.7rem;
 }
 
 .text-small{
   font-size: 0.8rem;
+}
+
+.text-super-small{
+  font-size: 0.9rem; 
 }
 
 .text-ad-description{
