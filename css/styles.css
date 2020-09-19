@@ -14,13 +14,11 @@ hr {
 
 p {
   color: #3c4245;
-  /* font-family: 'Helvetica', sans-serif; */
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
 a{
-  /* font-family: 'Helvetica', sans-serif; */
   font-size: 1.2rem;
 }
 
@@ -42,20 +40,29 @@ a{
   padding: 4% 5%;
 }
 
+/* Table for Questions */
+.questionTable{
+  table-layout : fixed;
+  width: 100%;
+}
+
+.questionTable tr{
+  color: #3c4245;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
 .text-intial{
   color: #000;
-  /* font-family: 'Tangerine', cursive; */
   font-family: 'Indie Flower', cursive;
   font-size: 3.3rem;
 }
 
 .text-sticky-note{
-  /* color: #856404; */
   font-family: 'Halant', serif;
 }
 
 /* Text Size */
-
 .text-jumbo{
   font-size: 2.7rem;
 }
@@ -69,7 +76,7 @@ a{
 }
 
 .text-super-small{
-  font-size: 0.9rem; 
+  font-size: 0.9rem;
 }
 
 .text-ad-description{
@@ -86,12 +93,6 @@ a{
 .giordan-logo{
   margin: 10px 1px 6px;
   width: 10rem;
-}
-
-.home-container .giordan-logo{
-  margin: 10px 1px 6px;
-  padding-bottom: 1.5rem;
-  width: 40rem;
 }
 
 .math-operators {
@@ -138,8 +139,7 @@ a{
 
 /* Information */
 .logo-description{
-  margin: 0.8rem auto;
-  max-width: 800px;
+    max-width: 800px;
 }
 
 /* Vertical Navigation sidebar */

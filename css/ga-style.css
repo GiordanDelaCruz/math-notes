@@ -119,6 +119,18 @@
   color: #fff;
 }
 
+.text-dark-orange{
+  color: #ff8c00;
+}
+
+.text-turquoise{
+  color: #40E0D0;
+}
+
+.text-cherry-blossom{
+  color: #ffb7c5
+}
+
 /* Text Shadows */
 .amethyst-shadow{
   text-shadow: 1px 1px #8559a5;
