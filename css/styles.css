@@ -42,6 +42,7 @@ a{
 
 /* Table for Questions */
 .questionTable{
+  margin: 1rem 0;
   table-layout : fixed;
   width: 100%;
 }
