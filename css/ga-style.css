@@ -123,6 +123,10 @@
   color: #ff8c00;
 }
 
+.text-grass{
+   color: #58e481;
+}
+
 .text-turquoise{
   color: #40E0D0;
 }
@@ -145,9 +149,17 @@
 }
 
 .full-black-shadow{
-  text-shadow: 1px 1px #000
+  text-shadow: 1px 1px #000;
+}
+
+.full-white-shadow{
+  text-shadow: 1px 1px #fff;
 }
 
 .shadow-3d{
   text-shadow: 5px 5px 0 rgba(0,0,0,0.2);
+}
+
+.white-shadow-3d{
+  text-shadow: 3px 3px 0 #6c5070;
 }
